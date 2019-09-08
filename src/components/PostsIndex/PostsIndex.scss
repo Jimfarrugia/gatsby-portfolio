@@ -1,0 +1,83 @@
+@import '../../sass/variables.scss';
+@import 'materialize-css/sass/materialize.scss';
+
+h3.project-title {
+  margin-top: 0;
+
+  &:after {
+    border-bottom: 3px solid lighten($primary-color, 35%);
+    content: '';
+    display: block;
+    height: 100%;
+    width: 80px;
+    margin-top: 1.5rem;
+  }
+}
+
+// #projects-show {
+//   .project-links {
+//     margin: 2rem 0;
+//   }
+//   .project-thumbnail,
+//   .project-screenshot {
+//     img { border-radius: 0.25rem; }
+//     border-radius: 0.25rem;
+//     border: 0.25rem solid $secondary-color;
+//     transition: ease 0.25;
+//     &:hover {
+//       border-color: $off-white;
+//     }
+//   }
+// }
+
+.project-body, 
+.project-summary {
+  h2 { margin: 3rem 0 }
+  h3 { margin: 2rem 0 }
+  h4 { margin: 1.5rem 0 }
+  p:last-child {
+    margin-bottom: 1.5rem;
+  }
+  ul {
+    margin-bottom: 2rem;
+
+    > li {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+@media #{$small-and-down} {
+  #projects > .row {
+    padding-bottom: 2.5rem;
+    // border-bottom: 0.25rem dotted lighten($primary-color, 35%);
+    
+    & > .col {
+      padding: 0;
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+  #projects > .row {
+    margin-bottom: 5rem;
+
+    & > .col:first-child { padding-left: 0 }
+    & > .col:last-child { padding-right: 0 }
+  }
+}
+
+// @media #{$large-and-up} {
+//   #projects {
+//     .row {
+//       &:first-child {
+//         margin-bottom: 3rem;
+//       }
+//       margin-bottom: 5rem;
+//     }
+//   }
+//   #projects-show .project-thumbnail {
+//     margin: 5rem 0 2rem;
+//   }
+
+// }

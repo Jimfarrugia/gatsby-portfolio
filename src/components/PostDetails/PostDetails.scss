@@ -1,0 +1,11 @@
+@import '../../sass/variables.scss';
+@import 'materialize-css/sass/materialize.scss';
+
+.img-content > a:first-child {
+  color: $off-white;
+  transition: 0.25s ease;
+  
+  &:hover {
+    color: $secondary-color;
+  }
+}

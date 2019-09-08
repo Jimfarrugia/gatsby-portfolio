@@ -1,6 +1,6 @@
 ---
 title: "The Butterfly of the Edge"
-cover: "https://unsplash.it/1152/300/?random?TheButterflyoftheEdge"
+cover: "https://unsplash.it/400/300/?random?people"
 category: "tech"
 date: "17/03/2017"
 tags:
