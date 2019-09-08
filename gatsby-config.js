@@ -70,6 +70,17 @@ module.exports = {
     "gatsby-plugin-catch-links",
     "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
+    `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'material icons',
+          'roboto:300,400,400i,700',
+          'roboto mono:300,400,400i,700'
+        ],
+      },
+    },
     {
       resolve: "gatsby-plugin-manifest",
       options: {

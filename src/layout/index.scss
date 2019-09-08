@@ -1,0 +1,44 @@
+@import '../sass/variables.scss';
+@import 'materialize-css/sass/materialize.scss';
+
+body {
+  background:     $primary-color;
+  color:          $off-white;
+}
+
+// Main Section
+main > .container {
+  margin: 3rem auto;
+
+  // List Style
+  ul > li {
+    list-style: inside;
+    list-style-type: square;
+  }
+
+  // Page/View Headings
+  > .row:first-child > .col:first-child > h2 {
+    //text-shadow: 1px 1px 3px $off-black;
+    margin: 4rem 0 2.5rem;
+  }
+
+}
+ 
+// Buttons
+.btn {
+  margin-bottom: 1rem;
+  margin-right: 0.75rem;
+}
+.btn-small {
+  margin-top: 1rem;
+}
+.btn,
+.btn i {
+  color: $off-black !important;
+  font-family: $monospace;
+}
+
+// Form buttons
+input.waves-button-input {
+  font-family: $monospace;
+}
