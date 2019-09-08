@@ -26,10 +26,13 @@ class PostsIndex extends React.Component {
 
   render() {
     const posts = this.getPosts();
+    const isEven = n => (n % 2 === 0);
+    const rowClasses = i => (isEven(i)) ? "row" : "row odd";
+
     return (
       <div id="projects">
-        {posts.map(post => (
-          <div className="row">
+        {posts.map((post, index) => (
+          <div className={rowClasses(index)}>
             <div className="col s12 m6 l5">
               <PostDetails post={post} />
             </div>
