@@ -33,12 +33,14 @@ class PostsIndex extends React.Component {
       <div id="projects">
         {posts.map((post, index) => (
           <div className={rowClasses(index)}>
-            <div className="col s12 m6 l5">
-              <PostDetails post={post} />
-            </div>
-            <div className="col s12 m12 l1 hide-on-med-and-down" />
-            <div className="col s12 m6 l6">
-              <PostCard post={post} />
+            <div className="container">
+              <div className="col s12 m6 l5">
+                <PostDetails post={post} />
+              </div>
+              <div className="col s12 m12 l1 hide-on-med-and-down" />
+              <div className="col s12 m6 l6">
+                <PostCard post={post} />
+              </div>
             </div>
           </div>
           ))
