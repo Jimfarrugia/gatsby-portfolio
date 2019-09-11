@@ -1,7 +1,7 @@
 const config = {
   siteTitle: "Jim Farrugia - Web Developer", // Site title.
   siteTitleShort: "Jim Farrugia", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
-  siteTitleAlt: "Jim Farrugia's Web Development Portfolio", // Alternative site title for SEO.
+  siteTitleAlt: "Jim Farrugia - Full Stack Web Developer Portfolio", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // ! Logo used for SEO and manifest.
   siteUrl: "https://jimfarrugia.com.au", // ! Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-advanced-starter/.
@@ -9,7 +9,7 @@ const config = {
   siteRss: "/rss.xml", // ! Path to the RSS file.
   siteFBAppID: "1825356251115265", // ! FB Application ID for using app insights
   googleAnalyticsID: "UA-47311644-5", // ! GA tracking ID.
-  disqusShortname: "https-vagr9k-github-io-gatsby-advanced-starter", // ! Disqus shortname.
+  disqusShortname: "jimfarrugia", // ! Disqus shortname.
   postDefaultCategoryID: "Tech", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
