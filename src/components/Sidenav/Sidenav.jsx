@@ -52,8 +52,9 @@ export class Sidenav extends Component {
                 <a href="!#">
                   <img 
                     className="circle" 
-                    src="https://via.placeholder.com/150" 
-                    alt="Jim's Avatar" 
+                    src="/images/jflogo-white.svg" 
+                    alt="Jim's Avatar"
+                    style={{backgroundColor: 'rgba(25,25,25,0.5)'}}
                   />
                 </a>
                 <a href="!#">
