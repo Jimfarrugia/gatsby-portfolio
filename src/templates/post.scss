@@ -1,65 +1,64 @@
 @import '../sass/variables.scss';
 @import 'materialize-css/sass/materialize.scss';
 #post {
-
-    h2 { margin: 3rem 0 }
-    h3 { margin: 2rem 0 }
-    h4 { margin: 1.5rem 0 }
-    p:last-child {
+  h2 { margin: 3rem 0 }
+  h3 { margin: 2rem 0 }
+  h4 { margin: 1.5rem 0 }
+  p:last-child {
     margin-bottom: 1.5rem;
+  }
+  ul, ol {
+    margin-bottom: 2rem;
+    & > li {
+        margin: 0.5rem 0;
     }
-    ul, ol {
-        margin-bottom: 2rem;
-        & > li {
-            margin: 0.5rem 0;
-        }
-    }
-    li ol {
-        padding-left: 1rem;
-    }
-    p strong {
-        font-weight: 700;
-    }
-    a {
-        color: $secondary-color;
-    }
-    pre {
-        margin: 3rem 0;
-        padding: 1.5rem;
-        width: fit-content;
-        max-width: 100%;
-        border-radius: 0.5rem;
-    }
-    code {
-        background-color: rgb(29, 31, 33);
-    }
+  }
+  li ol {
+    padding-left: 1rem;
+  }
+  p strong {
+    font-weight: 700;
+  }
+  a {
+    color: $secondary-color;
+  }
+  pre {
+    margin: 3rem 0;
+    padding: 1.5rem;
+    width: fit-content;
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+  code {
+    background-color: rgb(29, 31, 33);
+  }
 
-    .post-title {
-        margin: 5rem 0 3.5rem;
-        &:after {
-            border-bottom: 3px solid lighten($primary-color, 35%);
-            content: '';
-            display: block;
-            height: 100%;
-            width: 160px;
-            margin-top: 2.5rem;
-        }    
-    }
+  .post-title {
+    margin: 5rem 0 3.5rem;
+    &:after {
+      border-bottom: 3px solid lighten($primary-color, 35%);
+      content: '';
+      display: block;
+      height: 100%;
+      width: 160px;
+      margin-top: 2.5rem;
+    }    
+  }
 
-    img.post-cover {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        box-sizing: border-box;
-        border: 0.25rem solid $off-white;
-        //border-radius: 0.5rem;
-    }
+  img.post-cover {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    box-sizing: border-box;
+    border: 0.25rem solid $off-white;
+    //border-radius: 0.5rem;
+  }
 
-    .post-meta {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+  .post-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
