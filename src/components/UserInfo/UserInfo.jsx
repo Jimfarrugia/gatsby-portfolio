@@ -3,7 +3,7 @@ import { Follow } from "react-twitter-widgets";
 
 class UserInfo extends Component {
   render() {
-    const { userTwitter } = this.props.config;
+    const { config: userTwitter } = this.props;
     const { expanded } = this.props;
     return (
       <Follow

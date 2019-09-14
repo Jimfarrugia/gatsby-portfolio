@@ -2,6 +2,7 @@ import React from "react";
 import Helmet from "react-helmet";
 
 import Header from "../components/Header/Header"; // eslint-disable-line
+import Footer from "../components/Footer/Footer"; // eslint-disable-line
 import config from "../../data/SiteConfig";
 
 import "materialize-css/dist/css/materialize.min.css";
@@ -19,7 +20,7 @@ export default class MainLayout extends React.Component {
         <main>
           {children}
         </main>
-
+        <Footer config={config} />
       </>
     );
   }
