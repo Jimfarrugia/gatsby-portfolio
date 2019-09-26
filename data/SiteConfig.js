@@ -37,7 +37,7 @@ const config = {
       iconClassName: "fa fa-envelope"
     }
   ],
-  copyright: "Copyright © 2019. Jim Farrugia", // Copyright string for the footer of the website and RSS feed.
+  copyright: "©2019 Jim Farrugia", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#fff21a", // ? Used for setting manifest and progress theme colors.
   backgroundColor: "#003f8f" // ? Used for setting manifest background color.
 };
