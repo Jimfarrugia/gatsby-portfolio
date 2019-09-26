@@ -13,7 +13,7 @@ export const Header = () => (
         <img src="/images/jflogo-white.svg" alt="Jim Farrugia Logo" />
       </Link>
     </div>
-    <h1 className="center">Jim Farrugia</h1>
+    <h2 className="center">Jim Farrugia</h2>
     <h5 className="center">Full-Stack Web Developer</h5>
   </header>
 )
