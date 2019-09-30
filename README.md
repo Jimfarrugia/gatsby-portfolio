@@ -31,3 +31,5 @@ The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather po
 - Contact form
 - Implement Gatsby-Image
 - Setup GA
+- Replace sample posts with my projects
+- Add static images for projects
