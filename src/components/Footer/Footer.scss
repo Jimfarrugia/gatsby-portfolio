@@ -2,15 +2,15 @@
 @import "materialize-css/sass/materialize.scss";
 
 #page-footer {
-  background: $secondary-color;
-  padding: 3rem 0;
+    background: $secondary-color;
+    padding: 3rem 0;
 
-  a {
-    color: $off-black;
-    font-family: $monospace;
-  }
+    a {
+        color: $off-black;
+        font-family: $monospace;
+    }
 
-  .footer-copyright {
-    color: $off-black;
-  }
+    .footer-copyright {
+        color: $off-black;
+    }
 }

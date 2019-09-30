@@ -2,50 +2,50 @@
 @import "materialize-css/sass/materialize.scss";
 
 #top-nav {
-  height: 0em;
+    height: 0em;
 }
 
 #sidenav-trigger {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 99;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 99;
 }
 .sidenav-trigger {
-  position: absolute;
-  background: $secondary-color;
-  color: $off-black;
-  padding: 1.25rem 1.25rem 1rem;
-  margin: 0;
-  transition: ease 0.3s;
-  border-radius: 0 0 3px 3px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
-  &:hover {
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 5px;
-  }
+    position: absolute;
+    background: $secondary-color;
+    color: $off-black;
+    padding: 1.25rem 1.25rem 1rem;
+    margin: 0;
+    transition: ease 0.3s;
+    border-radius: 0 0 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 5px;
+    }
 }
 
 .sidenav {
-  background: $secondary-color !important;
-  scrollbar-width: none; // hide scrollbar in FIREFOX
+    background: $secondary-color !important;
+    scrollbar-width: none; // hide scrollbar in FIREFOX
 
-  &::-webkit-scrollbar {
-    width: 0em;
-  }
-  a > i.material-icons {
-    color: $off-black !important;
-  }
-  & > nav > li > ul > li > .collapsible-header {
-    padding-left: 32px;
-  }
-  & > nav > li > ul > li > .collapsible-body {
-    background-color: darken($secondary-color, 7%);
-  }
-  .user-view {
-    background: url("../../../static/images/code.gif") no-repeat bottom center;
-
-    .circle {
-      margin: 0 auto;
+    &::-webkit-scrollbar {
+        width: 0em;
     }
-  }
+    a > i.material-icons {
+        color: $off-black !important;
+    }
+    & > nav > li > ul > li > .collapsible-header {
+        padding-left: 32px;
+    }
+    & > nav > li > ul > li > .collapsible-body {
+        background-color: darken($secondary-color, 7%);
+    }
+    .user-view {
+        background: url("../../../static/images/code.gif") no-repeat bottom center;
+
+        .circle {
+            margin: 0 auto;
+        }
+    }
 }

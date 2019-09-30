@@ -2,17 +2,17 @@
 @import "materialize-css/sass/materialize.scss";
 
 h3.project-title {
-  margin-top: 0;
-  line-height: 1.25;
+    margin-top: 0;
+    line-height: 1.25;
 
-  &:after {
-    border-bottom: 3px solid lighten($primary-color, 35%);
-    content: "";
-    display: block;
-    height: 100%;
-    width: 80px;
-    margin-top: 1.5rem;
-  }
+    &:after {
+        border-bottom: 3px solid lighten($primary-color, 35%);
+        content: "";
+        display: block;
+        height: 100%;
+        width: 80px;
+        margin-top: 1.5rem;
+    }
 }
 
 // #projects-show {
@@ -33,51 +33,51 @@ h3.project-title {
 
 .project-body,
 .project-summary {
-  h2 {
-    margin: 3rem 0;
-  }
-  h3 {
-    margin: 2rem 0;
-  }
-  h4 {
-    margin: 1.5rem 0;
-  }
-  p:last-child {
-    margin-bottom: 1.5rem;
-  }
-  ul {
-    margin-bottom: 2rem;
-    & > li {
-      margin: 0.5rem 0;
+    h2 {
+        margin: 3rem 0;
     }
-  }
+    h3 {
+        margin: 2rem 0;
+    }
+    h4 {
+        margin: 1.5rem 0;
+    }
+    p:last-child {
+        margin-bottom: 1.5rem;
+    }
+    ul {
+        margin-bottom: 2rem;
+        & > li {
+            margin: 0.5rem 0;
+        }
+    }
 }
 
 #projects > .row {
-  padding: 5rem 0 4.5rem;
-  margin: 0;
-  background: $primary-color;
+    padding: 5rem 0 4.5rem;
+    margin: 0;
+    background: $primary-color;
 
-  &.odd {
-    background-color: lighten($primary-color, 2.5%);
-  }
+    &.odd {
+        background-color: lighten($primary-color, 2.5%);
+    }
 }
 
 @media #{$small-and-down} {
-  #projects > .row {
-    padding: 3.5rem 0 4rem;
-  }
+    #projects > .row {
+        padding: 3.5rem 0 4rem;
+    }
 }
 
 @media #{$medium-and-up} {
-  #projects > .row {
-    .col:first-child {
-      padding-left: 0;
+    #projects > .row {
+        .col:first-child {
+            padding-left: 0;
+        }
+        .col:last-child {
+            padding-right: 0;
+        }
     }
-    .col:last-child {
-      padding-right: 0;
-    }
-  }
 }
 
 // @media #{$large-and-up} {

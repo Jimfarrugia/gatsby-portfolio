@@ -2,37 +2,37 @@
 @import "materialize-css/sass/materialize.scss";
 
 #page-header {
-  color: $off-white;
-  padding-bottom: 3rem;
-  box-shadow: inset 0 -3px 5px 0 rgba(0, 0, 0, 0.14), 0 0 0 #000,
-    inset 0 3px 5px 0 rgba(0, 0, 0, 0.14);
-  background: url("../../../static/images/blue-sheets.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    color: $off-white;
+    padding-bottom: 3rem;
+    box-shadow: inset 0 -3px 5px 0 rgba(0, 0, 0, 0.14), 0 0 0 #000,
+        inset 0 3px 5px 0 rgba(0, 0, 0, 0.14);
+    background: url("../../../static/images/blue-sheets.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-  > h2,
-  > h5 {
-    font-family: $monospace;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.65);
-  }
+    > h2,
+    > h5 {
+        font-family: $monospace;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.65);
+    }
 
-  > h2 {
-    letter-spacing: -0.15rem;
-  }
+    > h2 {
+        letter-spacing: -0.15rem;
+    }
 
-  > h5 {
-    margin-top: 2.5rem;
-  }
+    > h5 {
+        margin-top: 2.5rem;
+    }
 }
 
 #logo {
-  padding-top: 4rem;
+    padding-top: 4rem;
 
-  > a {
-    display: block;
-    margin: 0 auto;
-    width: 240px;
-    height: auto;
-  }
+    > a {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+        height: auto;
+    }
 }
