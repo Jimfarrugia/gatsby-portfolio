@@ -48,10 +48,10 @@ stridentibus nocuere perque pestiferos convicti lenta instat ad adurat, veri
 nexaque mihi nulli quoque. **Sic** montis orat Turne omnes, fientque isset in
 fore spinae nulla, tuus.
 
-- In mare mixtaque tollens
-- Si vetus
-- Deorum adfata depressitque fortuna conlapsosque conorque
-- Ramum o
+  - In mare mixtaque tollens
+  - Si vetus
+  - Deorum adfata depressitque fortuna conlapsosque conorque
+  - Ramum o
 
 Iacentes sunt. *Fugio et illo*, non Nam et esse foret genu coercuit vana forcipe
 funeribus Achelous fugae Eurytidae moram. Tantique mei virga gestu, omnia qui
