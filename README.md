@@ -23,10 +23,10 @@ The main reason for the upgrade is that I'd like to have an easier method for up
 The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather posts/projects data from local files written in markdown.
 
 #### Todo
-- Footer layout
-- Netlify contact form :white_check_mark:
-- Style contact form
-- Implement Gatsby-Image
-- Setup GA
-- Replace sample posts with my projects :white_check_mark:
-- Add images for projects
+  - Footer layout
+  - Netlify contact form :white_check_mark:
+  - Style contact form
+  - Implement Gatsby-Image
+  - Setup GA
+  - Replace sample posts with my projects :white_check_mark:
+  - Add images for projects
