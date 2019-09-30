@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="static/logos/logo-1024.png" alt="Logo" width='200px' height='200px'/>
-  <h1>Jim Farrugia's Portfolio 2.0</h1>
+  <img src="static/logos/logo-1024.png" alt="Logo" width='144px' height='144px'/>
+  <h1 style="padding-top: 0;">Jim Farrugia's Portfolio 2.0</h1>
 </div>
-<p align="center">
+<p style="text-align: center;">
   <a href="https://codeclimate.com/github/Jimfarrugia/gatsby-portfolio">
     <img src="https://codeclimate.com/github/Jimfarrugia/gatsby-portfolio/badges/gpa.svg" alt="Code Climate" />
   </a>
