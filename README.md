@@ -16,6 +16,8 @@
   </a>
 </p>
 
+---
+
 The new version of my development portfolio, built with Gatsby and hosted with Netlify.
 
 #### Why?
