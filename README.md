@@ -27,7 +27,7 @@ The main reason for the upgrade is that I'd like to have an easier method for up
 The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather posts/projects data from local files written in markdown.
 
 #### Todo
-  - Footer layout
-  - Contact form
-  - Implement Gatsby-Image
-  - Setup GA
+- Footer layout
+- Contact form
+- Implement Gatsby-Image
+- Setup GA
