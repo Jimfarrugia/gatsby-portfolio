@@ -14,14 +14,14 @@ class Disqus extends Component {
   }
 
   onSnackbarDismiss() {
-    const [, ...toasts] = this.state.toasts;
-    this.setState({ toasts });
+    const [, ...toasts] = this.state.toasts; // eslint-disable-line
+    this.setState({ toasts }); // eslint-disable-line
   }
 
   notifyAboutComment() {
-    const toasts = this.state.toasts.slice();
+    const toasts = this.state.toasts.slice(); // eslint-disable-line
     toasts.push({ text: "New comment available!" });
-    this.setState({ toasts });
+    this.setState({ toasts }); // eslint-disable-line
   }
 
   render() {

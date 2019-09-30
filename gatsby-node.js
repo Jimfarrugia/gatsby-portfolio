@@ -28,7 +28,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       if (Object.prototype.hasOwnProperty.call(node.frontmatter, "date")) {
         const date = moment(node.frontmatter.date, siteConfig.dateFromFormat);
         if (!date.isValid)
-          console.warn(`WARNING: Invalid date.`, node.frontmatter);
+          console.warn(`WARNING: Invalid date.`, node.frontmatter); // eslint-disable-line
 
         createNodeField({
           node,
@@ -70,7 +70,7 @@ exports.createPages = async ({ graphql, actions }) => {
   );
 
   if (markdownQueryResult.errors) {
-    console.error(markdownQueryResult.errors);
+    console.error(markdownQueryResult.errors); // eslint-disable-line
     throw markdownQueryResult.errors;
   }
 
