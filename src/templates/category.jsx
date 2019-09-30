@@ -10,12 +10,10 @@ export default class CategoryTemplate extends React.Component {
     const {
       pageContext: { category },
       data: {
-        allMarkdownRemark: {
-          edges: postEdges
-        }
+        allMarkdownRemark: { edges: postEdges }
       }
     } = this.props;
-    
+
     return (
       <Layout>
         <div className="category-container">

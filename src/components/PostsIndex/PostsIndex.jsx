@@ -26,8 +26,8 @@ class PostsIndex extends React.Component {
 
   render() {
     const posts = this.getPosts();
-    const isEven = n => (n % 2 === 0);
-    const rowClasses = i => (isEven(i)) ? "row" : "row odd";
+    const isEven = n => n % 2 === 0;
+    const rowClasses = i => (isEven(i) ? "row" : "row odd");
 
     return (
       <div id="projects">
@@ -43,8 +43,7 @@ class PostsIndex extends React.Component {
               </div>
             </div>
           </div>
-          ))
-        }
+        ))}
       </div>
     );
   }

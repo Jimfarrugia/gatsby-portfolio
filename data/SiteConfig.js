@@ -18,7 +18,8 @@ const config = {
   userTwitter: "https://twitter.com/jim_farrugia", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Sydney, Australia", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // ! User avatar to display in the author segment.
-  userDescription: "The internet is my backyard... and I've got treehouses to build.", // User description to display in the author segment.
+  userDescription:
+    "The internet is my backyard... and I've got treehouses to build.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {

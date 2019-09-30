@@ -72,14 +72,14 @@ module.exports = {
     "gatsby-plugin-sitemap",
     `gatsby-plugin-sass`,
     {
-      resolve: 'gatsby-plugin-google-fonts',
+      resolve: "gatsby-plugin-google-fonts",
       options: {
         fonts: [
-          'material icons',
-          'roboto:300,400,400i,700',
-          'roboto mono:300,400,400i,700'
-        ],
-      },
+          "material icons",
+          "roboto:300,400,400i,700",
+          "roboto mono:300,400,400i,700"
+        ]
+      }
     },
     {
       resolve: "gatsby-plugin-manifest",
@@ -109,21 +109,21 @@ module.exports = {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/favicon.png",
-  
+
         // WebApp Manifest Configuration
         appName: null, // Inferred with your package.json
         appDescription: null,
         developerName: null,
         developerURL: null,
-        dir: 'auto',
-        lang: 'en-US',
+        dir: "auto",
+        lang: "en-US",
         background: config.backgroundColor,
         theme_color: config.themeColor,
-        display: 'standalone',
-        orientation: 'any',
-        start_url: '/?homescreen=1',
-        version: '1.0',
-  
+        display: "standalone",
+        orientation: "any",
+        start_url: "/?homescreen=1",
+        version: "1.0",
+
         icons: {
           android: true,
           appleIcon: true,

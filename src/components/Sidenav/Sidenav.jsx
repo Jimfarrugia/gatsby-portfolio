@@ -6,7 +6,6 @@ import M from "materialize-css";
 import "./Sidenav.scss";
 
 export class Sidenav extends Component {
-
   componentDidMount() {
     //* Automatically initialize materialize components
     M.AutoInit();
@@ -30,7 +29,11 @@ export class Sidenav extends Component {
       <>
         {/* Sidebar Nav Trigger Button */}
         <div id="sidenav-trigger" className="container">
-          <a href="!#" data-target="slide-out" className="sidenav-trigger show-on-large">
+          <a
+            href="!#"
+            data-target="slide-out"
+            className="sidenav-trigger show-on-large"
+          >
             <i className="material-icons">menu</i>
           </a>
         </div>
@@ -41,7 +44,8 @@ export class Sidenav extends Component {
         <ul
           id="slide-out"
           className="sidenav"
-          ref={Sidenav => { // eslint-disable-line
+          ref={Sidenav => {
+            // eslint-disable-line
             this.Sidenav = Sidenav;
           }}
         >
@@ -50,18 +54,20 @@ export class Sidenav extends Component {
               {/* 'User-View' (Bio) Section */}
               <div className="user-view center">
                 <a href="!#">
-                  <img 
-                    className="circle" 
-                    src="/images/jflogo-white.svg" 
+                  <img
+                    className="circle"
+                    src="/images/jflogo-white.svg"
                     alt="Jim's Avatar"
-                    style={{backgroundColor: 'rgba(25,25,25,0.5)'}}
+                    style={{ backgroundColor: "rgba(25,25,25,0.5)" }}
                   />
                 </a>
                 <a href="!#">
                   <span className="white-text name">Jim Farrugia</span>
                 </a>
                 <a href="!#">
-                  <span className="white-text email">the.jim.farrugia@gmail.com</span>
+                  <span className="white-text email">
+                    the.jim.farrugia@gmail.com
+                  </span>
                 </a>
               </div>
             </li>
@@ -75,7 +81,8 @@ export class Sidenav extends Component {
             <li>
               <ul className="collapsible">
                 <li>
-                  <a href="#" className="collapsible-header">{/* eslint-disable-line */}
+                  <a href="#" className="collapsible-header">
+                    {/* eslint-disable-line */}
                     <i className="material-icons">collections</i>
                     Portfolio
                     <i className="material-icons right">arrow_drop_down</i>
@@ -168,8 +175,8 @@ export class Sidenav extends Component {
           </nav>
         </ul>
       </>
-    )
+    );
   }
 }
 
-export default Sidenav
+export default Sidenav;

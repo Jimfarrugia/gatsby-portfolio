@@ -10,12 +10,10 @@ export default class TagTemplate extends React.Component {
     const {
       pageContext: { tag },
       data: {
-        allMarkdownRemark: {
-          edges: postEdges
-        }
+        allMarkdownRemark: { edges: postEdges }
       }
     } = this.props;
-    
+
     return (
       <Layout>
         <div className="tag-container">

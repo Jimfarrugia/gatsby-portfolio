@@ -1,9 +1,9 @@
-import { Link } from "gatsby"
-import React from "react"
+import { Link } from "gatsby";
+import React from "react";
 
-import Sidenav from "../Sidenav/LoadableSidenav"
+import Sidenav from "../Sidenav/LoadableSidenav";
 
-import "./Header.scss"
+import "./Header.scss";
 
 export const Header = () => (
   <header id="page-header">
@@ -16,6 +16,6 @@ export const Header = () => (
     <h2 className="center">Jim Farrugia</h2>
     <h5 className="center">Full-Stack Web Developer</h5>
   </header>
-)
+);
 
-export default Header
+export default Header;

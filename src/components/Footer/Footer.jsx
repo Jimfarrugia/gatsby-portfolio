@@ -19,16 +19,12 @@ class Footer extends Component {
               <a href="about.html">About</a>
             </div>
             <div className="col s4">
-              <a href="https://github.com/Jimfarrugia">
-                Github
-              </a>
+              <a href="https://github.com/Jimfarrugia">Github</a>
             </div>
             <div className="col s4">
-              <a href="https://medium.com/@jim_farrugia">
-                Medium
-              </a>
+              <a href="https://medium.com/@jim_farrugia">Medium</a>
             </div>
-          </div>   
+          </div>
           <div className="row center">
             <div className="col s4">
               <a href="history.html">History</a>
@@ -39,9 +35,7 @@ class Footer extends Component {
               </a>
             </div>
             <div className="col s4">
-              <a href="https://twitter.com/jim_farrugia">
-                Twitter
-              </a>
+              <a href="https://twitter.com/jim_farrugia">Twitter</a>
             </div>
           </div>
           <div className="row center">
@@ -49,17 +43,13 @@ class Footer extends Component {
               <a href="#page-header">Back to Top</a>
             </div>
             <div className="col s4">
-              <a href="htmailto:contact@jimfarrugia.com">
-                Email
-              </a>
+              <a href="htmailto:contact@jimfarrugia.com">Email</a>
             </div>
             <div className="col s4">
-              <a href="skype:live:the.jim.farrugia?call">
-                Skype
-              </a>
+              <a href="skype:live:the.jim.farrugia?call">Skype</a>
             </div>
           </div>
-          
+
           <div className="footer-copyright">
             <div className="container">
               <p className="center">{copyright}</p>
