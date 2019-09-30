@@ -2,7 +2,7 @@
 @import "materialize-css/sass/materialize.scss";
 
 #top-nav {
-    height: 0em;
+    height: 0;
 }
 
 #sidenav-trigger {
@@ -11,6 +11,7 @@
     left: 0;
     z-index: 99;
 }
+
 .sidenav-trigger {
     position: absolute;
     background: $secondary-color;
@@ -20,6 +21,7 @@
     transition: ease 0.3s;
     border-radius: 0 0 3px 3px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+    
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 5px;
     }
@@ -30,17 +32,21 @@
     scrollbar-width: none; // hide scrollbar in FIREFOX
 
     &::-webkit-scrollbar {
-        width: 0em;
+        width: 0;
     }
+
     a > i.material-icons {
         color: $off-black !important;
     }
+
     & > nav > li > ul > li > .collapsible-header {
         padding-left: 32px;
     }
+
     & > nav > li > ul > li > .collapsible-body {
         background-color: darken($secondary-color, 7%);
     }
+
     .user-view {
         background: url("../../../static/images/code.gif") no-repeat bottom center;
 
