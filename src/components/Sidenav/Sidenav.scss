@@ -20,10 +20,10 @@
     margin: 0;
     transition: ease 0.3s;
     border-radius: 0 0 3px 3px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
-    
+    box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px;
+
     &:hover {
-        box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 5px;
+        box-shadow: rgba(0, 0, 0, 0.6) 0 1px 5px;
     }
 }
 

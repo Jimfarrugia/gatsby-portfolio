@@ -5,7 +5,7 @@ h3.project-title {
     margin-top: 0;
     line-height: 1.25;
 
-    &:after {
+    &::after {
         border-bottom: 3px solid lighten($primary-color, 35%);
         content: "";
         display: block;

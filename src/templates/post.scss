@@ -53,8 +53,8 @@
 
     .post-title {
         margin: 5rem 0 3.5rem;
-        
-        &:after {
+
+        &::after {
             border-bottom: 3px solid lighten($primary-color, 35%);
             content: "";
             display: block;
