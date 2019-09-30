@@ -20,14 +20,14 @@
 
 The new version of my development portfolio. Built with Gatsby and hosted with Netlify.
 
-#### Why?
+#### Why Though
 
 The main reason for the upgrade is that I'd like to have an easier method for updating the website's content.  In my current portfolio, everything is hard-coded.  So whenever I'd like to add a new project, I have to write a bunch of HTML, adjust some class names, tweak the scrolling animation, etc.
 
 The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather posts/projects data from local files written in markdown.
 
-#### Todo:
-- Footer layout
-- Contact form
-- Implement Gatsby-Image
-- Setup GA
+#### Todo
+  - Footer layout
+  - Contact form
+  - Implement Gatsby-Image
+  - Setup GA
