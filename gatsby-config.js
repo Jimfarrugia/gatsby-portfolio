@@ -206,7 +206,8 @@ module.exports = {
               }
             }
           `,
-            output: config.siteRss
+            output: config.siteRss,
+            title: "Jim Farrugia's RSS Feed"
           }
         ]
       }
