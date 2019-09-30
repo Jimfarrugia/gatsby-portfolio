@@ -44,8 +44,7 @@ export class Sidenav extends Component {
         <ul
           id="slide-out"
           className="sidenav"
-          ref={Sidenav => {
-            // eslint-disable-line
+          ref={Sidenav => {// eslint-disable-line
             this.Sidenav = Sidenav;
           }}
         >
@@ -81,8 +80,7 @@ export class Sidenav extends Component {
             <li>
               <ul className="collapsible">
                 <li>
-                  <a href="#" className="collapsible-header">
-                    {/* eslint-disable-line */}
+                  <a href="!#" className="collapsible-header">
                     <i className="material-icons">collections</i>
                     Portfolio
                     <i className="material-icons right">arrow_drop_down</i>

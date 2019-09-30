@@ -1,5 +1,5 @@
-@import '../../sass/variables.scss';
-@import 'materialize-css/sass/materialize.scss';
+@import "../../sass/variables.scss";
+@import "materialize-css/sass/materialize.scss";
 
 h3.project-title {
   margin-top: 0;
@@ -7,7 +7,7 @@ h3.project-title {
 
   &:after {
     border-bottom: 3px solid lighten($primary-color, 35%);
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     width: 80px;
@@ -31,11 +31,17 @@ h3.project-title {
 //   }
 // }
 
-.project-body, 
+.project-body,
 .project-summary {
-  h2 { margin: 3rem 0 }
-  h3 { margin: 2rem 0 }
-  h4 { margin: 1.5rem 0 }
+  h2 {
+    margin: 3rem 0;
+  }
+  h3 {
+    margin: 2rem 0;
+  }
+  h4 {
+    margin: 1.5rem 0;
+  }
   p:last-child {
     margin-bottom: 1.5rem;
   }
@@ -65,8 +71,12 @@ h3.project-title {
 
 @media #{$medium-and-up} {
   #projects > .row {
-    .col:first-child { padding-left: 0 }
-    .col:last-child { padding-right: 0 }
+    .col:first-child {
+      padding-left: 0;
+    }
+    .col:last-child {
+      padding-right: 0;
+    }
   }
 }
 

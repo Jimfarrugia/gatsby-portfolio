@@ -1,9 +1,9 @@
-@import '../sass/variables.scss';
-@import 'materialize-css/sass/materialize.scss';
+@import "../sass/variables.scss";
+@import "materialize-css/sass/materialize.scss";
 
 body {
-  background:     $primary-color;
-  color:          $off-white;
+  background: $primary-color;
+  color: $off-white;
 }
 
 // Main Section
@@ -21,9 +21,8 @@ main > .container {
     //text-shadow: 1px 1px 3px $off-black;
     margin: 4rem 0 2.5rem;
   }
-
 }
- 
+
 // Buttons
 .btn {
   margin-bottom: 1rem;

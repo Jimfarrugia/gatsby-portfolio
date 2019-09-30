@@ -7,7 +7,8 @@ const Loading = props => {
   if (error) {
     return (
       <div>
-        Error!{" "}
+        Error!
+        {" "}
         <button type="button" onClick={props.retry}>
           Retry
         </button>
