@@ -20,13 +20,11 @@ class Footer extends Component {
             </div>
             <div className="col s4">
               <a href="https://github.com/Jimfarrugia">
-                <i className="material-icons">keyboard_arrow_right</i>
                 Github
               </a>
             </div>
             <div className="col s4">
               <a href="https://medium.com/@jim_farrugia">
-                <i className="material-icons">keyboard_arrow_right</i>
                 Medium
               </a>
             </div>
@@ -37,13 +35,11 @@ class Footer extends Component {
             </div>
             <div className="col s4">
               <a href="https://linkedin.com/in/jim-farrugia-46449740">
-                <i className="material-icons">keyboard_arrow_right</i>
                 LinkedIn
               </a>
             </div>
             <div className="col s4">
               <a href="https://twitter.com/jim_farrugia">
-                <i className="material-icons">keyboard_arrow_right</i>
                 Twitter
               </a>
             </div>
@@ -54,13 +50,11 @@ class Footer extends Component {
             </div>
             <div className="col s4">
               <a href="htmailto:contact@jimfarrugia.com">
-                <i className="material-icons">keyboard_arrow_right</i>
                 Email
               </a>
             </div>
             <div className="col s4">
               <a href="skype:live:the.jim.farrugia?call">
-                <i className="material-icons">keyboard_arrow_right</i>
                 Skype
               </a>
             </div>
