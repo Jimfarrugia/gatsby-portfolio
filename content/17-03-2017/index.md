@@ -33,10 +33,10 @@ quis](http://www.ipse-in.org/meritosenis.html) ardescunt cervicis. Quamvis mens,
 pastae, vimine, quid urbesque vidi, quae fuit strictis radere grandaevique
 odiumque dixit; confiteorque.
 
-1. Dryades resupinum
-2. Lassus vota illos et visis liceret
-3. Per nec tenaci solitoque peto Neoptolemum vitamque
-4. Dianae minoris tum
+  1. Dryades resupinum
+  2. Lassus vota illos et visis liceret
+  3. Per nec tenaci solitoque peto Neoptolemum vitamque
+  4. Dianae minoris tum
 
 ## Ferentem natam simillimus et erat commota pacifer
 
@@ -48,10 +48,10 @@ stridentibus nocuere perque pestiferos convicti lenta instat ad adurat, veri
 nexaque mihi nulli quoque. **Sic** montis orat Turne omnes, fientque isset in
 fore spinae nulla, tuus.
 
-- In mare mixtaque tollens
-- Si vetus
-- Deorum adfata depressitque fortuna conlapsosque conorque
-- Ramum o
+  - In mare mixtaque tollens
+  - Si vetus
+  - Deorum adfata depressitque fortuna conlapsosque conorque
+  - Ramum o
 
 Iacentes sunt. *Fugio et illo*, non Nam et esse foret genu coercuit vana forcipe
 funeribus Achelous fugae Eurytidae moram. Tantique mei virga gestu, omnia qui

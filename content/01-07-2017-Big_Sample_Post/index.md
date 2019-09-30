@@ -9,8 +9,7 @@ tags:
     - huge
 ---
 
-# NOTE: This "post" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.
-
+### NOTE: This "post" is based on [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and is meant to test styling of Markdown generated documents.
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 
@@ -113,18 +112,18 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 + Or pluses
 ```
 
-1. First ordered list item
-2. Another item
+  1. First ordered list item
+  2. Another item
 
-   * Unordered sub-list.
+    * Unordered sub-list.
 
 1. Actual numbers don't matter, just that it's a number
 
-   1. Ordered sub-list
+    1. Ordered sub-list
 
 4. And another item.
 
-   Some text that should be aligned with the above item.
+    Some text that should be aligned with the above item.
 
 * Unordered list can use asterisks
 - Or minuses
