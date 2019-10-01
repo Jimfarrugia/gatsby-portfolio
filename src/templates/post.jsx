@@ -2,7 +2,6 @@ import React from "react";
 import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
-import UserInfo from "../components/UserInfo/UserInfo";
 import PostTags from "../components/PostTags/PostTags";
 import SEO from "../components/SEO/SEO";
 import config from "../../data/SiteConfig";
@@ -35,7 +34,6 @@ export default class PostTemplate extends React.Component {
           <div className="post-meta">
             <PostTags tags={post.tags} />
           </div>
-          <UserInfo config={config} />
         </div>
       </Layout>
     );

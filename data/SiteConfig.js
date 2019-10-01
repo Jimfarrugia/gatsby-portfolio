@@ -14,8 +14,7 @@ const config = {
   dateFromFormat: "DD-MM-YYYY", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Jim Farrugia", // Username to display in the author segment.
-  userEmail: "contact@jimfarrugia.com.au", // ! Email used for RSS feed's author segment
-  userTwitter: "https://twitter.com/jim_farrugia", // Optionally renders "Follow Me" in the UserInfo segment.
+  userEmail: "the.jim.farrugia@gmail.com", // Email used for RSS feed's author segment
   userLocation: "Sydney, Australia", // User location to display in the author segment.
   userAvatar: "https://api.adorable.io/avatars/150/test.png", // ! User avatar to display in the author segment.
   userDescription:
