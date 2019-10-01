@@ -29,25 +29,25 @@ class Footer extends Component {
           </div>
           <div className="row center">
             <div className="social-icons">
-              <a href="https://github.com/Jimfarrugia">
+              <a href="https://github.com/Jimfarrugia" title="Github">
                 <Icon path={mdiGithubFace} size={2} />
               </a>
-              <a href="https://medium.com/@jim_farrugia" style={{marginBottom: -2}}>
+              <a href="https://medium.com/@jim_farrugia" style={{marginBottom: -2}} title="Medium">
                 <Icon path={mdiMedium} size={2} />
               </a>
-              <a href="https://linkedin.com/in/jim-farrugia-46449740">
+              <a href="https://linkedin.com/in/jim-farrugia-46449740" title="LinkedIn">
                 <Icon path={mdiLinkedin} size={2} />
               </a>
-              <a href="https://twitter.com/jim_farrugia">
+              <a href="https://twitter.com/jim_farrugia" title="Twitter">
                 <Icon path={mdiTwitter} size={2} />
               </a>
-              <a href="skype:live:the.jim.farrugia?call">
+              <a href="skype:live:the.jim.farrugia?call" title="Skype">
                 <Icon path={mdiSkype} size={2} />
               </a>
-              <a href="mailto:the.jim.farrugia@gmail.com">
+              <a href="mailto:the.jim.farrugia@gmail.com" title="Email">
                 <Icon path={mdiEmail} size={2} />
               </a>
-              <a href="#">
+              <a href="https://t.me/jimfarrugia" title="Telegram">
                 <Icon path={mdiTelegram} size={2} />
               </a>
             </div>
