@@ -1,7 +1,14 @@
-.user-links {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
+.icon-menu {
+    padding: 3rem 0 2rem;
+    
+    & > a {
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 42px;
+        margin-right: 1.5rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
 }

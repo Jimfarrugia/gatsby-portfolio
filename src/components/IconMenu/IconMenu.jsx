@@ -11,30 +11,30 @@ import {
 } from "@mdi/js";
 import "./IconMenu.scss";
 
-const UserLinks = ({ config: { userLinks } }) => (
-  <div className="social-icons center">
+const IconMenu = ({ config: { userLinks }, iconSize }) => (
+  <div className="icon-menu center">
     <a href={userLinks.github} title="Github">
-      <Icon path={mdiGithubFace} size={2} />
+      <Icon path={mdiGithubFace} size={iconSize} />
     </a>
     <a href={userLinks.medium} style={{marginBottom: -2}} title="Medium">
-      <Icon path={mdiMedium} size={2} />
+      <Icon path={mdiMedium} size={iconSize} />
     </a>
     <a href={userLinks.linkedin} title="LinkedIn">
-      <Icon path={mdiLinkedin} size={2} />
+      <Icon path={mdiLinkedin} size={iconSize} />
     </a>
     <a href={userLinks.twitter} title="Twitter">
-      <Icon path={mdiTwitter} size={2} />
+      <Icon path={mdiTwitter} size={iconSize} />
     </a>
     <a href={userLinks.skype} title="Skype">
-      <Icon path={mdiSkype} size={2} />
+      <Icon path={mdiSkype} size={iconSize} />
     </a>
     <a href={userLinks.telegram} title="Telegram">
-      <Icon path={mdiTelegram} size={2} />
+      <Icon path={mdiTelegram} size={iconSize} />
     </a>
     <a href={userLinks.email} title="Email">
-      <Icon path={mdiEmail} size={2} />
+      <Icon path={mdiEmail} size={iconSize} />
     </a>
   </div>
 );
 
-export default UserLinks;
+export default IconMenu;
