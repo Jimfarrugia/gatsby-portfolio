@@ -25,7 +25,7 @@ The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather po
 #### Todo
 - Footer layout
 - Netlify contact form :white_check_mark:
-- Style contact form
+- Style contact form :white_check_mark:
 - Implement Gatsby-Image
 - Setup GA
 - Replace sample posts with my projects :white_check_mark:
