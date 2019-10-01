@@ -9,7 +9,7 @@ import {
   mdiEmail,
   mdiTelegram
 } from "@mdi/js";
-import "./UserLinks.css";
+import "./IconMenu.scss";
 
 const UserLinks = ({ config: { userLinks } }) => (
   <div className="social-icons center">

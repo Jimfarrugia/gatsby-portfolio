@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Icon from "@mdi/react";
 import {  mdiArrowUp } from "@mdi/js";
 
-import UserLinks from "../UserLinks/UserLinks";
+import IconMenu from "../IconMenu/IconMenu";
 
 import "./Footer.scss";
 
@@ -21,7 +21,7 @@ class Footer extends Component {
             </a>
           </div>
           
-          <UserLinks config={config} />
+          <IconMenu config={config} />
 
           <div className="footer-copyright">
             <p className="center">{config.copyright}</p>
