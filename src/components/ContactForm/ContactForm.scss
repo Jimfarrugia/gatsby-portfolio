@@ -4,6 +4,19 @@
 #contact-form {
     padding: 3rem 0 2.5rem;
 
+    h3 {
+        line-height: 1.5;
+        
+        &::after {
+            border-bottom: 3px solid lighten($primary-color, 35%);
+            content: "";
+            display: block;
+            height: 100%;
+            width: 80px;
+            margin-top: 1.5rem;
+        }
+    }
+
     .form-actions {
         text-align: right;
 
