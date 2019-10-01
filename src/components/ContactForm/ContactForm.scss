@@ -2,28 +2,48 @@
 @import "materialize-css/sass/materialize.scss";
 
 #contact-form {
-    .col:first-child {
-        padding-left: 0;
+    padding: 3rem 0 2.5rem;
+
+    .form-actions {
+        text-align: right;
+
+        .btn {
+            margin: 0 0 1rem 1rem;
+        }
     }
 
-    .col:last-child {
-        padding-right: 0;
-    }
-    
-    // .input-field label,
-    // .character-counter {
-    //     color: darken($off-white, 15%);
-    // }
+    .input-field {
+        [type=submit],
+        [type=reset] {
+            cursor: pointer;
+        }
 
-    // .input-field {
-    //     [type=submit],
-    //     [type=reset] {
-    //         cursor: pointer;
-    //     }
-    //     [type=text],
-    //     [type=url],
-    //     textarea {
-    //         color: $off-white;
-    //     }
-    // }
+        [type=text],
+        [type=url],
+        textarea {
+            color: $off-white;
+        }
+
+        label {
+            color: darken($off-white, 15%);
+        }
+    }
+}
+
+@media #{$small-and-down} {
+    #contact-form .col {
+        padding: 0;
+    }
+}
+
+@media #{$medium-and-up} {
+    #contact-form .col {
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+        }
+    }
 }

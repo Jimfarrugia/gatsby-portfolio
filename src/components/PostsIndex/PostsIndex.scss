@@ -69,8 +69,14 @@ h3.project-title {
 }
 
 @media #{$small-and-down} {
-    #projects > .row {
-        padding: 3.5rem 0 4rem;
+    #projects {
+        & > .row {
+            padding: 3.5rem 0 4rem;
+        }
+
+        .col {
+            padding: 0;
+        }
     }
 }
 
@@ -85,18 +91,3 @@ h3.project-title {
         }
     }
 }
-
-// @media #{$large-and-up} {
-//   #projects {
-//     .row {
-//       &:first-child {
-//         margin-bottom: 3rem;
-//       }
-//       margin-bottom: 5rem;
-//     }
-//   }
-//   #projects-show .project-thumbnail {
-//     margin: 5rem 0 2rem;
-//   }
-
-// }
