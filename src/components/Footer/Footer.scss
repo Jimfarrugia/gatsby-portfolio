@@ -5,13 +5,14 @@
     background: $secondary-color;
     padding: 3rem 0;
 
-    a {
+    a,
+    .footer-copyright {
         color: $off-black;
         font-family: $monospace;
     }
 
     .social-icons {
-        padding: 1rem 0;
+        padding: 3rem 0 2rem;
         
         a {
             display: inline-block;
@@ -23,9 +24,5 @@
                 margin-right: 0;
             }
         }
-    }
-
-    .footer-copyright {
-        color: $off-black;
     }
 }

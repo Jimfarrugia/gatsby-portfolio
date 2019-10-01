@@ -21,23 +21,15 @@ const config = {
   userDescription:
     "The internet is my backyard... and I've got treehouses to build.", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
-  userLinks: [
-    {
-      label: "GitHub",
-      url: "https://github.com/jimfarrugia",
-      iconClassName: "fa fa-github"
-    },
-    {
-      label: "Twitter",
-      url: "https://twitter.com/jim_farrugia",
-      iconClassName: "fa fa-twitter"
-    },
-    {
-      label: "Email",
-      url: "mailto:contact@jimfarrugia.com.au", // ! connect
-      iconClassName: "fa fa-envelope"
-    }
-  ],
+  userLinks: {
+    github: "https://github.com/Jimfarrugia",
+    medium: "https://medium.com/@jim_farrugia",
+    linkedin: "https://linkedin.com/in/jim-farrugia-46449740",
+    twitter: "https://twitter.com/jim_farrugia",
+    skype: "skype:live:the.jim.farrugia?call",
+    telegram: "https://t.me/jimfarrugia",
+    email: "mailto:the.jim.farrugia@gmail.com"
+  },
   copyright: "©2019 Jim Farrugia", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#fff21a", // ? Used for setting manifest and progress theme colors.
   backgroundColor: "#003f8f" // ? Used for setting manifest background color.
