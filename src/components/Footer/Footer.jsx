@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
+import Icon from "@mdi/react";
+import { mdiGithubFace, mdiLinkedin, mdiMedium, mdiTwitter, mdiSkype, mdiEmail, mdiTelegram } from "@mdi/js";
 
 import UserLinks from "../UserLinks/UserLinks";
 
@@ -16,18 +18,43 @@ class Footer extends Component {
         <div className="container">
           <div className="row center">
             <div className="col s4">
+              <a href="#page-header">Back to Top</a>
+            </div>
+            <div className="col s4">
               <a href="about.html">About</a>
             </div>
             <div className="col s4">
-              <a href="https://github.com/Jimfarrugia">Github</a>
+              <a href="history.html">History</a>
             </div>
-            <div className="col s4">
-              <a href="https://medium.com/@jim_farrugia">Medium</a>
+          </div>
+          <div className="row center">
+            <div className="social-icons">
+              <a href="https://github.com/Jimfarrugia">
+                <Icon path={mdiGithubFace} size={2} />
+              </a>
+              <a href="https://medium.com/@jim_farrugia" style={{marginBottom: -2}}>
+                <Icon path={mdiMedium} size={2} />
+              </a>
+              <a href="https://linkedin.com/in/jim-farrugia-46449740">
+                <Icon path={mdiLinkedin} size={2} />
+              </a>
+              <a href="https://twitter.com/jim_farrugia">
+                <Icon path={mdiTwitter} size={2} />
+              </a>
+              <a href="skype:live:the.jim.farrugia?call">
+                <Icon path={mdiSkype} size={2} />
+              </a>
+              <a href="mailto:the.jim.farrugia@gmail.com">
+                <Icon path={mdiEmail} size={2} />
+              </a>
+              <a href="#">
+                <Icon path={mdiTelegram} size={2} />
+              </a>
             </div>
           </div>
           <div className="row center">
             <div className="col s4">
-              <a href="history.html">History</a>
+              <a href="https://github.com/Jimfarrugia">Github</a>
             </div>
             <div className="col s4">
               <a href="https://linkedin.com/in/jim-farrugia-46449740">
@@ -40,7 +67,7 @@ class Footer extends Component {
           </div>
           <div className="row center">
             <div className="col s4">
-              <a href="#page-header">Back to Top</a>
+              <a href="https://medium.com/@jim_farrugia">Medium</a>
             </div>
             <div className="col s4">
               <a href="htmailto:contact@jimfarrugia.com">Email</a>
