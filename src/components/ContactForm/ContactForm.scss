@@ -2,6 +2,14 @@
 @import "materialize-css/sass/materialize.scss";
 
 #contact-form {
+    .col:first-child {
+        padding-left: 0;
+    }
+
+    .col:last-child {
+        padding-right: 0;
+    }
+    
     // .input-field label,
     // .character-counter {
     //     color: darken($off-white, 15%);
