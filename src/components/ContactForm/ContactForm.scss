@@ -6,6 +6,7 @@
 
     h3 {
         line-height: 1.5;
+        margin-top: 0.4rem;
         
         &::after {
             border-bottom: 3px solid lighten($primary-color, 35%);
