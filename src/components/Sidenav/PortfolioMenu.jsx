@@ -11,11 +11,11 @@ export class PortfolioMenu extends Component {
     return (
       <ul className="collapsible">
         <li>
-          <a href="#none" className="collapsible-header">
+          <button type="button" className="collapsible-header">
             <i className="material-icons">collections</i>
             Portfolio
             <i className="material-icons right">arrow_drop_down</i>
-          </a>
+          </button>
           <div className="collapsible-body">
             <ul>
               <li>
