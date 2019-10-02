@@ -3,7 +3,7 @@ import M from "materialize-css";
 
 export class PortfolioMenu extends Component {
   componentDidMount() {
-    //* Automatically initialize materialize components
+    // Automatically initialize materialize components
     M.AutoInit();
   }
 

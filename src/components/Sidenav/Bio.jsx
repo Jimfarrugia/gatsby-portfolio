@@ -1,23 +1,23 @@
 import React from 'react';
+import { Link } from 'gatsby';
+import config from '../../../data/SiteConfig';
 
 const Bio = () => (
   <div className="user-view center">
-    <a href="!#">
+    <Link to="/">
       <img
         className="circle"
-        src="/images/jflogo-white.svg"
+        src={config.userAvatar}
         alt="Jim's Avatar"
         style={{ backgroundColor: "rgba(25,25,25,0.5)" }}
       />
-    </a>
-    <a href="!#">
-      <span className="white-text name">Jim Farrugia</span>
-    </a>
-    <a href="!#">
-      <span className="white-text email">
-        the.jim.farrugia@gmail.com
-      </span>
-    </a>
+    </Link>
+    <Link to="/">
+      <span className="white-text name">{config.userName}</span>
+    </Link>
+    <Link to="/">
+      <span className="white-text email">{config.userEmail}</span>
+    </Link>
   </div>
 )
 
