@@ -18,11 +18,9 @@ export class Sidenav extends Component {
     M.Sidenav.init(this.Sidenav, options);
 
     //* Get and control an instance
-  }
-  
-  handleClose = () => {
-    const instance = M.Sidenav.getInstance(this.Sidenav);
-    instance.close();
+    // let instance = M.Sidenav.getInstance(this.Sidenav);
+    // instance.open();
+    // console.log(instance.isOpen);
   }
 
   render() {
@@ -81,7 +79,7 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <Link to="#contact-form" onClick={this.handleClose()}>
+              <Link to="#contact-form">
                 <i className="material-icons">mail</i>
                 Contact
               </Link>
