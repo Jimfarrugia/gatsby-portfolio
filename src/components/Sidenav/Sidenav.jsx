@@ -18,9 +18,11 @@ export class Sidenav extends Component {
     M.Sidenav.init(this.Sidenav, options);
 
     //* Get and control an instance
-    // let instance = M.Sidenav.getInstance(this.Sidenav);
-    // instance.open();
-    // console.log(instance.isOpen);
+  }
+  
+  handleClose = () => {
+    const instance = M.Sidenav.getInstance(this.Sidenav);
+    instance.close();
   }
 
   render() {
@@ -48,7 +50,9 @@ export class Sidenav extends Component {
           }}
         >
           <nav>
-            <Bio />
+            <li>
+              <Bio />
+            </li>
             <li>
               <Link to="/">
                 <i className="material-icons">home</i>
@@ -65,7 +69,7 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="/about">
                 <i className="material-icons">face</i>
                 About
               </Link>
@@ -77,7 +81,7 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/">
+              <Link to="#contact-form" onClick={this.handleClose()}>
                 <i className="material-icons">mail</i>
                 Contact
               </Link>
