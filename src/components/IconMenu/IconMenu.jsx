@@ -16,7 +16,7 @@ const IconMenu = ({ config: { userLinks }, iconSize }) => (
     <a href={userLinks.github} title="Github" target="_blank" rel="noopener noreferrer">
       <Icon path={mdiGithubFace} size={iconSize} />
     </a>
-    <a href={userLinks.medium} style={{marginBottom: -2}} title="Medium" target="_blank" rel="noopener noreferrer">
+    <a href={userLinks.medium} title="Medium" target="_blank" rel="noopener noreferrer">
       <Icon path={mdiMedium} size={iconSize} />
     </a>
     <a href={userLinks.linkedin} title="LinkedIn" target="_blank" rel="noopener noreferrer">

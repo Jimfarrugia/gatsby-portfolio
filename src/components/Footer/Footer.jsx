@@ -21,7 +21,7 @@ class Footer extends Component {
             </a>
           </div>
           
-          <IconMenu config={config} iconSize={2} />
+          <IconMenu config={config} iconSize={1.5} />
 
           <div className="footer-copyright">
             <p className="center">{config.copyright}</p>

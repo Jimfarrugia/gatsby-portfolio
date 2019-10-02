@@ -1,11 +1,12 @@
 .icon-menu {
-    padding: 3rem 0 2rem;
+    padding: 3rem 0 0.5rem;
     
     & > a {
         display: inline-block;
         vertical-align: middle;
         max-height: 42px;
         margin-right: 1.5rem;
+        margin-bottom: 1.5rem;
 
         &:last-child {
             margin-right: 0;

@@ -22,6 +22,11 @@ export class Sidenav extends Component {
     // instance.open();
     // console.log(instance.isOpen);
   }
+  
+  // handleClose = () => {
+  //   const instance = M.Sidenav.getInstance(this.Sidenav);
+  //   instance.close();
+  // }
 
   render() {
     return (
