@@ -1,14 +1,16 @@
 ---
-title: '"Rock, Paper, Scizzors!"'
-cover: "https://unsplash.it/400/300/?random?connect"
-date: "01/06/2015"
+title: "Crystal Jade"
+cover: "/images/posts/crystal-jade/crystal-jade-home.png"
+date: "01/02/2015"
 category: "tech"
 tags:
   - Web Design
-  - Javascript
+  - jQuery
+  - CSS3
 ---
-"Rock, Paper, Scizzors!" is a simple game we've all played.
 
-I created a web page where the user can play against the browser. This was a really fun way to improve my javascript skills.
+Crystal Jade is a Chinese Restaurant in St Clair, NSW.
 
-I started with a very basic version of the game, then added more graphics and features like a score count and a score tally.
+This is one of my early projects where I designed and developed a single-page website to display their menu, opening hours and contact details.
+
+I used this as an opportunity to get some of my first experience with CSS3 and jQuery by creating a fully collapsible/expandable takeout menu.
