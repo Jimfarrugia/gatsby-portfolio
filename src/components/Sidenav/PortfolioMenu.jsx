@@ -11,7 +11,7 @@ export class PortfolioMenu extends Component {
     return (
       <ul className="collapsible">
         <li>
-          <a href="#" className="collapsible-header">{/* eslint-disable-line */}
+          <a href="#none" className="collapsible-header">
             <i className="material-icons">collections</i>
             Portfolio
             <i className="material-icons right">arrow_drop_down</i>
