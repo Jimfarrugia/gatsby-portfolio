@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import config from '../../../data/SiteConfig';
+import React from "react";
+import { Link } from "gatsby";
+import config from "../../../data/SiteConfig";
 
 const Bio = () => (
   <div className="user-view center">
@@ -19,6 +19,6 @@ const Bio = () => (
       <span className="white-text email">{config.userEmail}</span>
     </Link>
   </div>
-)
+);
 
 export default Bio;

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import M from "materialize-css";
 
 export class PortfolioMenu extends Component {
@@ -76,7 +76,7 @@ export class PortfolioMenu extends Component {
           </div>
         </li>
       </ul>
-    )
+    );
   }
 }
 
