@@ -1,6 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
+import Icon from "@mdi/react";
+import { mdiGithubCircle, mdiLaunch } from "@mdi/js";
 import Layout from "../layout";
 import PostTags from "../components/PostTags/PostTags";
 import SEO from "../components/SEO/SEO";
@@ -29,10 +31,34 @@ export default class PostTemplate extends React.Component {
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div id="post" className="container">
           <h2 className="post-title">{post.title}</h2>
+          {/* render video if it exists, else render cover */}
           {post.video && (
-            <iframe title={post.title} width="560" height="315" src={post.video} frameBorder="0" allowFullScreen />
+            <iframe 
+              title={post.title}
+              width="560"
+              height="315"
+              src={post.video}
+              frameBorder="0"
+              allowFullScreen
+            />
           ) || (
             <img className="post-cover" src={post.cover} alt={post.title} />
+          )}
+          {(post.demo || post.github) && (
+            <div className="post-links">
+              {post.demo && (
+                <Link to={post.demo} className="btn">
+                  <Icon path={mdiLaunch} size={0.95} />
+                  Live Demo
+                </Link>
+              )}
+              {post.github && (
+                <Link to={post.github} className="btn">
+                  <Icon path={mdiGithubCircle} size={1} />
+                  Github
+                </Link>
+              )}
+            </div>
           )}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
           <div className="post-tags">
@@ -55,6 +81,9 @@ export const pageQuery = graphql`
         title
         cover
         video
+        demo
+        github
+        images
         date
         category
         tags
