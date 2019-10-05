@@ -44,9 +44,7 @@ module.exports = {
               maxWidth: 690
             }
           },
-          {
-            resolve: "gatsby-remark-responsive-iframe"
-          },
+          "gatsby-remark-responsive-iframe",
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
           "gatsby-remark-autolink-headers"
@@ -143,7 +141,7 @@ module.exports = {
         setup(ref) {
           const ret = ref.query.site.siteMetadata.rssMetadata;
           ret.allMarkdownRemark = ref.query.allMarkdownRemark;
-          ret.generator = "GatsbyJS Advanced Starter";
+          ret.generator = "Jim Farrugia's Portfolio";
           return ret;
         },
         query: `
@@ -196,7 +194,7 @@ module.exports = {
                     }
                     frontmatter {
                       title
-                      cover
+                      cover                      
                       date
                       category
                       tags
