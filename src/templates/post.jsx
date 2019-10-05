@@ -28,10 +28,14 @@ export default class PostTemplate extends React.Component {
         </Helmet>
         <SEO postPath={slug} postNode={postNode} postSEO />
         <div id="post" className="container">
-          <h1 className="post-title">{post.title}</h1>
-          <img className="post-cover" src={post.cover} alt={post.title} />
+          <h2 className="post-title">{post.title}</h2>
+          {post.video && (
+            <iframe title={post.title} width="560" height="315" src={post.video} frameBorder="0" allowFullScreen />
+          ) || (
+            <img className="post-cover" src={post.cover} alt={post.title} />
+          )}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-          <div className="post-meta">
+          <div className="post-tags">
             <PostTags tags={post.tags} />
           </div>
         </div>
@@ -50,6 +54,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         cover
+        video
         date
         category
         tags

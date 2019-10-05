@@ -14,8 +14,11 @@
         margin: 1.5rem 0;
     }
 
-    p:last-child {
-        margin-bottom: 1.5rem;
+    iframe {
+        margin-bottom: 2rem;
+        max-width: 100%;
+        height: auto;
+        min-height: 225px;
     }
 
     ul,
@@ -31,8 +34,14 @@
         padding-left: 1rem;
     }
 
-    p strong {
-        font-weight: 700;
+    p {
+        font-size: 1.125rem;
+        margin-bottom: 2rem;
+        line-height: 1.75;
+
+        strong {
+            font-weight: 700;
+        }
     }
 
     a {
@@ -64,20 +73,25 @@
         }
     }
 
-    img.post-cover {
+    .post-cover {
         display: block;
-        margin: 0 auto;
+        margin: 0 0 3rem;
         width: 100%;
         max-width: 600px;
         height: auto;
         box-sizing: border-box;
-        border: 0.25rem solid $off-white;
-        //border-radius: 0.5rem;
     }
 
-    .post-meta {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .post-tags {
+        margin: 3rem 0 4rem;
+    }
+
+}
+
+@media #{$medium-and-up} {
+    #post {
+        iframe {
+            min-height: 315px;
+        }
     }
 }

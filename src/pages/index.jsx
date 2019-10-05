@@ -47,6 +47,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
+            video
             date
           }
         }
