@@ -53,10 +53,10 @@ export default class PostTemplate extends React.Component {
                 </Link>
               )}
               {post.github && (
-                <Link to={post.github} className="btn">
+                <a href={post.github} className="btn">
                   <Icon path={mdiGithubCircle} size={1} />
                   Github
-                </Link>
+                </a>
               )}
             </div>
           )}
