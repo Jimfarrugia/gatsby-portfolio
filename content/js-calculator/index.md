@@ -2,6 +2,7 @@
 title: "Javascript Calculator"
 cover: "/images/posts/js-calculator/js-calculator.png"
 date: "01/12/2018"
+demo: "/"
 category: "tech"
 tags:
   - Javascript
