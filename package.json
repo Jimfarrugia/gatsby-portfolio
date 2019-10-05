@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-advanced",
-  "description": "GatsbyJS starter that includes examples for advanced use cases.",
+  "name": "jimfarrugia-portfolio",
+  "description": "A showcase of my work as a full stack web developer",
   "version": "1.1.0",
-  "author": "Ruben Harutyunyan <vagr9k@gmail.com>",
+  "author": "Jim Farrugia <the.jim.farrugia@gmail.com>",
   "dependencies": {
     "@mdi/js": "^4.4.95",
     "@mdi/react": "^1.2.1",
@@ -84,5 +84,9 @@
     "plugins": [
       "remark-preset-lint-recommended"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jimfarrugia/gatsby-portfolio.git"
   }
 }
