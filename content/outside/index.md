@@ -3,6 +3,7 @@ title: "Outside"
 cover: "/images/posts/outside/outside_open.png"
 date: "01/01/2019"
 github: "https://github.com/jimfarrugia/outside"
+demo: "/"
 category: "tech"
 tags:
   - Javascript
