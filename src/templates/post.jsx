@@ -117,7 +117,7 @@ export const PostTemplate = props => {
       </div>
     </Layout>
   );
-}
+};
 
 export default PostTemplate;
 
