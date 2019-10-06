@@ -30,7 +30,7 @@ images:
   - "/images/posts/on-tap/mobile_menu_1_3.jpg"
 
   - "/images/posts/on-tap/tablet_home_1_3.jpg"
-  
+
   - "/images/posts/on-tap/tablet_gallery_2_3.jpg"
 ---
 
