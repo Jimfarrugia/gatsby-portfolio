@@ -6,9 +6,12 @@ github: "https://github.com/Jimfarrugia/nicotine-calculator"
 category: "tech"
 tags:
   - Materialize CSS
+
   - Javascript
 images:
+
   - "/images/posts/nicotine-calculator/nicotine-calculator-closed_3_4.png"
+
   - "/images/posts/nicotine-calculator/nicotine-calculator-open_2_3.png"
 ---
 

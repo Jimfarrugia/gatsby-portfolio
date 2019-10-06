@@ -6,9 +6,12 @@ github: "https://github.com/Jimfarrugia/calculator"
 category: "tech"
 tags:
   - FreeCodeCamp
+
   - Javascript
+
   - CSS3
 images:
+
   - "/images/posts/js-calculator/js-calculator_3_4.png"
 ---
 
