@@ -7,6 +7,7 @@ date: "01/04/2019"
 category: "tech"
 tags:
   - Ruby
+  - Bootcamp
 images:
   - "/images/posts/hangman/hangman_welcome.png"
   - "/images/posts/hangman/hangman_gameover.png"

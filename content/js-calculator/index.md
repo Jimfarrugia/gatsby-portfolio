@@ -2,11 +2,14 @@
 title: "Javascript Calculator"
 cover: "/images/posts/js-calculator/js-calculator.png"
 date: "01/12/2018"
-demo: "/"
+github: "https://github.com/Jimfarrugia/calculator"
 category: "tech"
 tags:
+  - FreeCodeCamp
   - Javascript
   - CSS3
+images:
+  - "/images/posts/js-calculator/js-calculator.png"
 ---
 
 I developed a calculator using only HTML, CSS and Javascript.

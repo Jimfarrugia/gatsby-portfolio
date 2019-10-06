@@ -2,11 +2,16 @@
 title: "Outside"
 cover: "/images/posts/outside/outside_open.png"
 date: "01/01/2019"
+github: "https://github.com/jimfarrugia/outside"
 category: "tech"
 tags:
   - Javascript
   - React
   - Bootstrap
+images:
+  - "/images/posts/outside/outside_closed.png"
+  - "/images/posts/outside/outside_open.png"
+  - "/images/posts/outside/outside_mobile.png"
 ---
 
 Outside is a single-page weather application I created using ReactJS.

@@ -6,6 +6,11 @@ category: "tech"
 tags:
   - Web Design
   - Javascript
+images:
+  - "/images/posts/rps/thumb_rps.png"
+  - "/images/posts/rps/rps-ver1.png"
+  - "/images/posts/rps/rps-ver2.png"
+  - "/images/posts/rps/rps-ver3.png"
 ---
 "Rock, Paper, Scizzors!" is a simple game we've all played.
 
