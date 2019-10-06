@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql } from "gatsby";
+import { graphql, Link } from "gatsby";
 import Icon from "@mdi/react";
 import { mdiGithubCircle, mdiLaunch } from "@mdi/js";
 import Layout from "../layout";
@@ -12,6 +12,19 @@ import "./post.scss";
 import "./b16-tomorrow-dark.css";
 
 export default class PostTemplate extends React.Component {
+  renderImages = (images, altText) => {
+    return images.map((url, index) => (
+      <Link to={url}>
+        <img
+          src={url}
+          alt={`${altText} ${index+1}`}
+          width="100"
+          height="100"
+        />
+      </Link>
+    ));
+  }
+
   render() {
     const { data, pageContext } = this.props;
     const { slug } = pageContext;
@@ -23,6 +36,7 @@ export default class PostTemplate extends React.Component {
     if (!post.category_id) {
       post.category_id = config.postDefaultCategoryID;
     }
+
     return (
       <Layout>
         <Helmet>
@@ -60,6 +74,11 @@ export default class PostTemplate extends React.Component {
             </div>
           )}
           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
+          {post.images && post.images.length > 0 && (
+            <div className="post-images">
+              {this.renderImages(post.images, post.title)}
+            </div>
+          )}
           <div className="post-tags">
             <PostTags tags={post.tags} />
           </div>
