@@ -7,11 +7,16 @@ demo: "/"
 category: "tech"
 tags:
   - Javascript
+
   - React
+
   - Bootstrap
 images:
+
   - "/images/posts/outside/outside_mobile_1_3.png"
+
   - "/images/posts/outside/outside_closed_3_2.png"
+  
   - "/images/posts/outside/outside_open_1_1.png"
 ---
 

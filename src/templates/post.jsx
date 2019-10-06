@@ -13,7 +13,8 @@ import config from "../../data/SiteConfig";
 import "./post.scss";
 import "./b16-tomorrow-dark.css";
 
-export const PostTemplate = ({ data, pageContext }) => {
+export const PostTemplate = props => {
+  const { data, pageContext} = props;
   const { slug } = pageContext;
   const postNode = data.markdownRemark;
   const post = postNode.frontmatter;

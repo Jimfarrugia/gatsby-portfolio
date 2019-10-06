@@ -7,9 +7,13 @@ tags:
   - Web Design
   - Javascript
 images:
+
   - "/images/posts/rps/thumb_rps_4_3.png"
+
   - "/images/posts/rps/rps-ver1_4_3.png"
+
   - "/images/posts/rps/rps-ver2_4_3.png"
+  
   - "/images/posts/rps/rps-ver3_4_3.png"
 ---
 "Rock, Paper, Scizzors!" is a simple game we've all played.
