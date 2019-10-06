@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import _ from "lodash";
 import { Link } from "gatsby";
+import Icon from "@mdi/react";
+import { mdiLinkVariant } from "@mdi/js";
 
 import "./PostTags.scss";
 
@@ -15,12 +17,11 @@ class PostTags extends Component {
             {tags.map(tag => (
               <Link
                 key={tag}
-                style={{ textDecoration: "none" }}
                 to={`/tags/${_.kebabCase(tag)}`}
+                className="btn"
               >
-                <button type="button" className="btn">
-                  {tag}
-                </button>
+                <Icon path={mdiLinkVariant} size={1} />
+                {tag}
               </Link>
             ))}
           </>

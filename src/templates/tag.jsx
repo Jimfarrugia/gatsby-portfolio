@@ -46,6 +46,7 @@ export const pageQuery = graphql`
             title
             tags
             cover
+            demo
             date
           }
         }
