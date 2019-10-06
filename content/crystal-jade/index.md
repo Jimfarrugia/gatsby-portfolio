@@ -1,6 +1,6 @@
 ---
 title: "Crystal Jade"
-cover: "/images/posts/crystal-jade/crystal-jade-home.png"
+cover: "/images/posts/crystal-jade/crystal-jade-home_8_7.png"
 date: "01/02/2015"
 category: "tech"
 tags:
