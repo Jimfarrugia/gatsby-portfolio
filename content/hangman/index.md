@@ -1,6 +1,6 @@
 ---
 title: "Hangman"
-cover: "/images/posts/hangman/hangman_welcome.png"
+cover: "/images/posts/hangman/hangman_welcome_1_1.png"
 video: "https://www.youtube.com/embed/rBhebuaGaYc"
 github: "https://github.com/Jimfarrugia/ruby_hangman"
 date: "01/04/2019"
@@ -9,9 +9,9 @@ tags:
   - Ruby
   - Bootcamp
 images:
-  - "/images/posts/hangman/hangman_welcome.png"
-  - "/images/posts/hangman/hangman_gameover.png"
-  - "/images/posts/hangman/hangman_victory.png"
+  - "/images/posts/hangman/hangman_welcome_1_1.png"
+  - "/images/posts/hangman/hangman_gameover_2_3.png"
+  - "/images/posts/hangman/hangman_victory_2_3.png"
 ---
 
 This is the first project I completed at code bootcamp. The assignment task was to work with a partner to create an interactive terminal application using the [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language)) programming language.

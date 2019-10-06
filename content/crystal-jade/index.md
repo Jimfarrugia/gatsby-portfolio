@@ -8,9 +8,8 @@ tags:
   - jQuery
   - CSS3
 images:
-  - "/images/posts/hangman/hangman_welcome.png"
-  - "/images/posts/hangman/hangman_gameover.png"
-  - "/images/posts/hangman/hangman_victory.png"
+  - "/images/posts/crystal-jade/crystal-jade-home_8_7.png"
+  - "/images/posts/crystal-jade/crystal-jade-menu_5_8.png"
 ---
 
 Crystal Jade is a Chinese Restaurant in St Clair, NSW.

@@ -1,6 +1,6 @@
 ---
 title: "Javascript Calculator"
-cover: "/images/posts/js-calculator/js-calculator.png"
+cover: "/images/posts/js-calculator/js-calculator_3_4.png"
 date: "01/12/2018"
 github: "https://github.com/Jimfarrugia/calculator"
 category: "tech"
@@ -9,7 +9,7 @@ tags:
   - Javascript
   - CSS3
 images:
-  - "/images/posts/js-calculator/js-calculator.png"
+  - "/images/posts/js-calculator/js-calculator_3_4.png"
 ---
 
 I developed a calculator using only HTML, CSS and Javascript.
