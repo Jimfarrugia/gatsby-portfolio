@@ -34,9 +34,8 @@ export default class PostTemplate extends React.Component {
           {/* render video if it exists, else render cover */}
           {post.video && (
             <iframe 
+              className="video"
               title={post.title}
-              width="560"
-              height="315"
               src={post.video}
               frameBorder="0"
               allowFullScreen
