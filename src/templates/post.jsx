@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Icon from "@mdi/react";
 import { mdiGithubCircle, mdiLaunch } from "@mdi/js";
 import Layout from "../layout";
@@ -47,13 +47,13 @@ export default class PostTemplate extends React.Component {
           {(post.demo || post.github) && (
             <div className="post-links">
               {post.demo && (
-                <Link to={post.demo} className="btn">
+                <a href={post.demo} className="btn" target="_blank" rel="noopener noreferrer">
                   <Icon path={mdiLaunch} size={0.95} />
                   Live Demo
-                </Link>
+                </a>
               )}
               {post.github && (
-                <a href={post.github} className="btn">
+                <a href={post.github} className="btn" target="_blank" rel="noopener noreferrer">
                   <Icon path={mdiGithubCircle} size={1} />
                   Github
                 </a>
