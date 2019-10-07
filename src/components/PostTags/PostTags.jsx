@@ -18,7 +18,7 @@ class PostTags extends Component {
               <Link
                 key={tag}
                 to={`/tags/${_.kebabCase(tag)}`}
-                className="btn"
+                className="btn waves-effect waves-light"
               >
                 <Icon path={mdiLinkVariant} size={1} />
                 {tag}

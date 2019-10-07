@@ -70,7 +70,7 @@ export const PostTemplate = props => {
             {post.demo && (
               <a
                 href={post.demo}
-                className="btn"
+                className="btn waves-effect waves-light"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -81,7 +81,7 @@ export const PostTemplate = props => {
             {post.github && (
               <a
                 href={post.github}
-                className="btn"
+                className="btn waves-effect waves-light"
                 target="_blank"
                 rel="noopener noreferrer"
               >
