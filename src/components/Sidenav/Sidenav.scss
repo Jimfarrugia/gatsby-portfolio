@@ -40,7 +40,16 @@
     }
 
     & > nav > li > ul > li > .collapsible-header {
-        padding-left: 32px;
+        color: $off-black;
+        padding-left: 30px;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+        height: 48px;
+
+        & > i:first-child {
+            margin-right: 28px;
+        }
     }
 
     & > nav > li > ul > li > .collapsible-body {
