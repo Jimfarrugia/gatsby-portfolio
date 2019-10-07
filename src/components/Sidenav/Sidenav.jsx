@@ -79,10 +79,10 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <Link to="#contact-form" className="sidenav-close">
+              <a href="#contact-form" className="sidenav-close">
                 <i className="material-icons">mail</i>
                 Contact
-              </Link>
+              </a>
             </li>
           </nav>
         </ul>
