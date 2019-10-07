@@ -1,6 +1,6 @@
 import React from "react";
 import Icon from "@mdi/react";
-import { mdiTelegram } from "@mdi/js";
+import { mdiSend } from "@mdi/js";
 
 import "./ContactForm.scss";
 
@@ -33,9 +33,9 @@ export const ContactForm = () => (
               <textarea id="message" name="message" className="materialize-textarea" required />
             </div>
             <div className="input-field form-actions">
-              <button type="submit" className="btn waves-effect waves-light">
-                <Icon path={mdiTelegram} size={1} />
+              <button type="submit" className="btn-large waves-effect waves-light">
                 Send
+                <Icon path={mdiSend} size={1.25} />
               </button>
             </div>
           </div>
