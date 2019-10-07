@@ -52,7 +52,7 @@ export class Sidenav extends Component {
               <Bio />
             </li>
             <li>
-              <Link to="/">
+              <Link to="/" className="sidenav-close">
                 <i className="material-icons">home</i>
                 Home
               </Link>
