@@ -1,13 +1,13 @@
-import { Link } from "gatsby";
 import React from "react";
+import { Link } from "gatsby";
 
-import Sidenav from "../Sidenav/LoadableSidenav";
+import Sidenav from "../Sidenav/Sidenav";
 
 import "./Header.scss";
 
-export const Header = () => (
+export const Header = ({postLinks}) => (
   <header id="page-header">
-    <Sidenav />
+    <Sidenav postLinks={postLinks} />
     <div id="logo">
       <Link to="/">
         <img src="/images/jflogo-white.svg" alt="Jim Farrugia Logo" />

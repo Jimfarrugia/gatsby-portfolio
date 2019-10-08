@@ -24,6 +24,8 @@ export class Sidenav extends Component {
   }
 
   render() {
+    const { postLinks } = this.props;
+
     return (
       <>
         {/* Sidebar Nav Trigger Button */}
@@ -58,7 +60,7 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <PortfolioMenu />
+              <PortfolioMenu postLinks={postLinks} />
             </li>
             <li>
               <Link to="/">
