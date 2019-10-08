@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 import M from "materialize-css";
 
 export class PortfolioMenu extends Component {
@@ -8,6 +9,8 @@ export class PortfolioMenu extends Component {
   }
 
   render() {
+    const { postLinks } = this.props;
+
     return (
       <ul className="collapsible">
         <li>
@@ -18,60 +21,14 @@ export class PortfolioMenu extends Component {
           </button>
           <div className="collapsible-body">
             <ul>
-              <li>
-                <a href="#hangman-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Ruby Hangman
-                </a>
-              </li>
-              <li>
-                <a href="#outside-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Outside
-                </a>
-              </li>
-              <li>
-                <a href="#jscalc-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Javascript Calculator
-                </a>
-              </li>
-              <li>
-                <a href="#niccalc-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Nicotine Calculator
-                </a>
-              </li>
-              <li>
-                <a href="#eliquiddata-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Eliquid Data
-                </a>
-              </li>
-              <li>
-                <a href="#ontap-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  On Tap
-                </a>
-              </li>
-              <li>
-                <a href="#rps-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Rock, Paper, Scizzors!
-                </a>
-              </li>
-              <li>
-                <a href="#crystaljade-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Crystal Jade
-                </a>
-              </li>
-              <li>
-                <a href="#atc-row">
-                  <i className="material-icons">keyboard_arrow_right</i>
-                  Australian Time Converter
-                </a>
-              </li>
+              {postLinks && postLinks.map(post => (
+                <li>
+                  <Link to={post.slug} className="sidenav-close">
+                    <i className="material-icons">keyboard_arrow_right</i>
+                    {post.title}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
         </li>
