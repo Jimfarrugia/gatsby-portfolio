@@ -7,6 +7,10 @@ import PortfolioMenu from "./PortfolioMenu";
 
 import "./Sidenav.scss";
 
+if (typeof window !== 'undefined') {
+  require('materialize-css/dist/js/materialize.min.js')
+}
+
 export class Sidenav extends Component {
   componentDidMount() {
     const options = {
