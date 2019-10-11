@@ -7,10 +7,6 @@ import PortfolioMenu from "./PortfolioMenu";
 
 import "./Sidenav.scss";
 
-if (typeof window !== 'undefined') {
-  require('materialize-css/dist/js/materialize.min.js')
-}
-
 export class Sidenav extends Component {
   componentDidMount() {
     const options = {
@@ -19,8 +15,9 @@ export class Sidenav extends Component {
       draggable: true
     };
     //* Init Sidenav with options
-    M.Sidenav.init(this.Sidenav, options);
-
+    if (M) {
+      M.Sidenav.init(this.Sidenav, options);
+    }
     //* Get and control an instance
     // let instance = M.Sidenav.getInstance(this.Sidenav);
     // instance.open();
