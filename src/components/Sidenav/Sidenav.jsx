@@ -15,9 +15,8 @@ export class Sidenav extends Component {
       draggable: true
     };
     //* Init Sidenav with options
-    if (M) {
-      M.Sidenav.init(this.Sidenav, options);
-    }
+    M.Sidenav.init(this.Sidenav, options);
+    
     //* Get and control an instance
     // let instance = M.Sidenav.getInstance(this.Sidenav);
     // instance.open();
