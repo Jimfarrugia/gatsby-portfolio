@@ -1,4 +1,5 @@
 import React from "react";
+import uuid from "uuid/v4";
 
 import PostDetails from "../PostDetails/PostDetails";
 import PostCard from "../PostCard/PostCard";
@@ -36,7 +37,7 @@ class PostsIndex extends React.Component {
     return (
       <div id="projects">
         {posts.map((post, index) => (
-          <div className={rowClasses(index)}>
+          <div key={uuid()} className={rowClasses(index)}>
             <div className="container">
               <div className="col s12 m6 l5">
                 <PostDetails post={post} />

@@ -22,7 +22,7 @@ export class PortfolioMenu extends Component {
           <div className="collapsible-body">
             <ul>
               {postLinks && postLinks.map(post => (
-                <li>
+                <li key={post.slug}>
                   <Link to={post.slug} className="sidenav-close">
                     <i className="material-icons">keyboard_arrow_right</i>
                     {post.title}
