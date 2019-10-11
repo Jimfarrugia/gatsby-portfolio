@@ -28,12 +28,12 @@ The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather po
 - [x] Style contact form
 - [x] Replace sample posts with my projects
 - [x] Add images for projects
-- [ ] Style collapsible-header button (dropdown button)
+- [x] Style collapsible-header button (dropdown button)
+- [x] Setup working links in Sidenav
+- [x] Rework PortfolioMenu component in sidenav. (map through posts, return links)
 - [ ] Smooth-scroll when navigating to page elements
-- [ ] Rework PortfolioMenu component in sidenav. (map through posts, return links)
 - [ ] About page
 - [ ] Resume page
+  - [ ] Include Github activity embed
 - [ ] Blog page *(tentative)*
-- [ ] Setup working links in Sidenav
 - [ ] Setup GA
-- [ ] Implement Gatsby-Image
