@@ -16,7 +16,7 @@ export class Sidenav extends Component {
     };
     //* Init Sidenav with options
     M.Sidenav.init(this.Sidenav, options);
-    
+
     //* Get and control an instance
     // let instance = M.Sidenav.getInstance(this.Sidenav);
     // instance.open();
@@ -24,7 +24,16 @@ export class Sidenav extends Component {
   }
 
   render() {
-    const { postLinks } = this.props;
+    const portfolioLinks = [
+      { title: "Hangman", slug: "/hangman" },
+      { title: "Outside", slug: "/outside" },
+      { title: "Javascript Calculator", slug: "/javascript-calculator" },
+      { title: "Nicotine Calculator", slug: "/nicotine-calculator" },
+      { title: "Eliquid Data", slug: "/eliquid-data" },
+      { title: "On Tap", slug: "/on-tap"},
+      { title: '"Rock, Paper, Scizzors!"', slug: "/rock-paper-scizzors" },
+      { title: "Crystal Jade", slug: "/crystal-jade" }
+    ];
 
     return (
       <>
@@ -60,7 +69,7 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <PortfolioMenu postLinks={postLinks} />
+              <PortfolioMenu links={portfolioLinks} />
             </li>
             <li>
               <Link to="/">

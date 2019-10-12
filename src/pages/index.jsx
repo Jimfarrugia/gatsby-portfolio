@@ -15,15 +15,9 @@ class Index extends React.Component {
         allMarkdownRemark: { edges: postEdges }
       }
     } = this.props;
-    const postLinks = postEdges.map(edge => {
-      return {
-        title: edge.node.frontmatter.title,
-        slug: edge.node.fields.slug
-      }
-    });
 
     return (
-      <Layout postLinks={postLinks}>
+      <Layout>
         <Helmet title={config.siteTitle} />
         <SEO />
         <PostsIndex postEdges={postEdges} />

@@ -5,9 +5,9 @@ import Sidenav from "../Sidenav/Sidenav";
 
 import "./Header.scss";
 
-export const Header = ({postLinks}) => (
+export const Header = () => (
   <header id="page-header">
-    <Sidenav postLinks={postLinks} />
+    <Sidenav />
     <div id="logo">
       <Link to="/">
         <img src="/images/jflogo-white.svg" alt="Jim Farrugia Logo" />
