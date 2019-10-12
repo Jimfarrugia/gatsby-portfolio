@@ -11,13 +11,13 @@ import "./index.scss";
 
 export default class MainLayout extends React.Component {
   render() {
-    const { children, postLinks } = this.props;
+    const { children } = this.props;
     return (
       <>
         <Helmet>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
-        <Header postLinks={postLinks} />
+        <Header />
         <main>{children}</main>
         <ContactForm />
         <Footer config={config} />

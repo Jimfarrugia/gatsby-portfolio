@@ -14,7 +14,7 @@ import "./post.scss";
 import "./b16-tomorrow-dark.css";
 
 export const PostTemplate = props => {
-  const { data, pageContext, postLinks } = props;
+  const { data, pageContext } = props;
   const { slug } = pageContext;
   const postNode = data.markdownRemark;
   const post = postNode.frontmatter;
@@ -46,7 +46,7 @@ export const PostTemplate = props => {
   };
 
   return (
-    <Layout postLinks={postLinks}>
+    <Layout>
       <Helmet>
         <title>{`${post.title} | ${config.siteTitle}`}</title>
       </Helmet>
@@ -117,19 +117,6 @@ export const PostTemplate = props => {
       </div>
     </Layout>
   );
-};
-
-PostTemplate.defaultProps = {
-  postLinks: [
-    { title: "Hangman", slug: "/hangman" },
-    { title: "Outside", slug: "/outside" },
-    { title: "Javascript Calculator", slug: "/javascript-calculator" },
-    { title: "Nicotine Calculator", slug: "/nicotine-calculator" },
-    { title: "Eliquid Data", slug: "/eliquid-data" },
-    { title: "On Tap", slug: "/on-tap"},
-    { title: '"Rock, Paper, Scizzors!"', slug: "/rock-paper-scizzors" },
-    { title: "Crystal Jade", slug: "/crystal-jade" }
-  ]
 };
 
 export default PostTemplate;

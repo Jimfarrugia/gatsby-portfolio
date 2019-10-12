@@ -9,7 +9,7 @@ export class PortfolioMenu extends Component {
   }
 
   render() {
-    const { postLinks } = this.props;
+    const { links } = this.props;
 
     return (
       <ul className="collapsible">
@@ -21,11 +21,11 @@ export class PortfolioMenu extends Component {
           </button>
           <div className="collapsible-body">
             <ul>
-              {postLinks && postLinks.map(post => (
-                <li key={post.slug}>
-                  <Link to={post.slug} className="sidenav-close">
+              {links && links.map(link => (
+                <li key={link.slug}>
+                  <Link to={link.slug} className="sidenav-close">
                     <i className="material-icons">keyboard_arrow_right</i>
-                    {post.title}
+                    {link.title}
                   </Link>
                 </li>
               ))}
