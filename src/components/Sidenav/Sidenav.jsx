@@ -31,7 +31,7 @@ export class Sidenav extends Component {
       { title: "Nicotine Calculator", slug: "/nicotine-calculator" },
       { title: "Eliquid Data", slug: "/eliquid-data" },
       { title: "On Tap", slug: "/on-tap"},
-      { title: '"Rock, Paper, Scizzors!"', slug: "/rock-paper-scizzors" },
+      { title: "\"Rock, Paper, Scizzors!\"", slug: "/rock-paper-scizzors" },
       { title: "Crystal Jade", slug: "/crystal-jade" }
     ];
 
