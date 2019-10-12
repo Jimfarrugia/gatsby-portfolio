@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import Sidenav from "../Sidenav/Sidenav";
+import Sidenav from "../Sidenav/LoadableSidenav";
 
 import "./Header.scss";
 
