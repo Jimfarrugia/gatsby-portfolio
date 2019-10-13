@@ -23,17 +23,13 @@ The main reason for the upgrade is that I'd like to have an easier method for up
 The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather posts/projects data from local files written in markdown.
 
 #### Todo
-- [x] Footer layout
-- [x] Netlify contact form
-- [x] Style contact form
-- [x] Replace sample posts with my projects
-- [x] Add images for projects
-- [x] Style collapsible-header button (dropdown button)
-- [x] Setup working links in Sidenav
-- [x] Rework PortfolioMenu component in sidenav. (map through posts, return links)
-- [ ] Smooth-scroll when navigating to page elements
-- [ ] About page
-- [ ] Resume page
-  - [ ] Include Github activity embed
+- [ ] Fix aspect ratio of thumbnails in 'nicotine calculator' project page.
+- [ ] Smooth-scroll when navigating to page elements.
+- [ ] Setup project demos + add links to markdown files.
+- [ ] Pages:
+  - [ ] About page
+  - [ ] Resume page
+    - [ ] Include Github activity embed
+- [ ] Write more detailed content for project pages.
 - [ ] Blog page *(tentative)*
 - [ ] Setup GA
