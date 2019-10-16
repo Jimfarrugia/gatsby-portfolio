@@ -87,6 +87,13 @@
         }
     }
 
+    .post-gallery {
+        img:hover {
+            outline: 5px solid $secondary-color;
+            outline-offset: -5px;
+        }
+    }
+
     .post-tags {
         margin: 3rem 0 4rem;
     }
