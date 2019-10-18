@@ -46,12 +46,13 @@
             background-color: darken($secondary-color, 7%);
         }
 
-        i, span {
+        i,
+        span {
             display: inline-block;
             vertical-align: middle;
             margin-top: -4px;
         }
-        
+
         i {
             margin-right: 32px;
         }

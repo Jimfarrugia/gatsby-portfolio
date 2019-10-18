@@ -7,7 +7,7 @@ import IconMenu from "../IconMenu/IconMenu";
 import "./Footer.scss";
 
 class Footer extends Component {
-  scrollToTop = () => window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+  scrollToTop = () => window.scroll({ top: 0, left: 0, behavior: "smooth" });
 
   render() {
     const { config } = this.props;
