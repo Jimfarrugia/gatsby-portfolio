@@ -6,7 +6,7 @@ import "./ContactForm.scss";
 
 export const ContactForm = () => (
   <div id="contact-form-container">
-    <div id="contact-form" className="container scrollspy">
+    <div id="contact-form" className="container">
       <h3>Contact Me</h3>
       {/* Netlify Form */}
       <form name="contact" method="POST" data-netlify="true">
