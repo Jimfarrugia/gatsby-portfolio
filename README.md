@@ -25,7 +25,7 @@ The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather po
 #### Todo
 - [x] Fix aspect ratio of thumbnails in 'nicotine calculator' project page.
 - [x] Give yellow border to project image gallery thumbnails on :hover
-- [ ] Smooth-scroll when navigating to page elements.
+- [x] Smooth-scroll when navigating to page elements.
 - [ ] Setup project demos + add links to markdown files.
 - [ ] Pages:
   - [ ] About page
@@ -34,3 +34,4 @@ The new site will use the Gatsby plugin, `gatsby-source-filesystem` to gather po
 - [ ] Write more detailed content for project pages.
 - [ ] Blog page *(tentative)*
 - [ ] Setup GA
+- [ ] Setup LogRocket

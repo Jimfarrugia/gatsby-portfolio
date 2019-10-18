@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import React, { Component } from "react";
 import M from "materialize-css";
+import ScrollIntoView from "react-scroll-into-view";
 
 import Bio from "./Bio";
 import PortfolioMenu from "./PortfolioMenu";
@@ -90,10 +91,12 @@ export class Sidenav extends Component {
               </Link>
             </li>
             <li>
-              <a href="#contact-form" className="sidenav-close">
-                <i className="material-icons">mail</i>
-                Contact
-              </a>
+              <ScrollIntoView selector="#contact-form-container">
+                <button type="button" className="sidenav-close">
+                  <i className="material-icons">mail</i>
+                  <span>Contact</span>
+                </button>
+              </ScrollIntoView>
             </li>
           </nav>
         </ul>

@@ -5,6 +5,17 @@
     background: $secondary-color;
     padding: 3rem 0;
 
+    .backToTopBtn {
+        background: none;
+        border: none;
+        font-family: $monospace;
+        font-size: 1rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
     a,
     .footer-copyright {
         color: $off-black;
