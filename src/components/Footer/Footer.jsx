@@ -7,6 +7,8 @@ import IconMenu from "../IconMenu/IconMenu";
 import "./Footer.scss";
 
 class Footer extends Component {
+  scrollToTop = () => window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+
   render() {
     const { config } = this.props;
 
@@ -14,11 +16,11 @@ class Footer extends Component {
       <footer id="page-footer">
         <div className="container">
           <div className="center">
-            <a href="#page-header">
+            <button type="button" className="backToTopBtn" onClick={this.scrollToTop}>
               <Icon path={mdiArrowUp} size={2} />
               <br />
               Back to Top
-            </a>
+            </button>
           </div>
           
           <IconMenu config={config} iconSize={1.5} />
