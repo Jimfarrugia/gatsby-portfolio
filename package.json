@@ -42,6 +42,7 @@
     "react-images": "^1.0.0",
     "react-loadable": "^5.5.0",
     "react-photo-gallery": "^8.0.0",
+    "react-scroll-into-view": "^1.5.3",
     "react-share": "^2.4.0",
     "react-twitter-widgets": "^1.7.1",
     "sharp": "^0.23.1",
